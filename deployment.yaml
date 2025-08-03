@@ -23,6 +23,7 @@ kind: Service
 metadata:
   name: wil-playground
 spec:
+  type: NodePort
   selector:
     app: wil-playground
   ports:
